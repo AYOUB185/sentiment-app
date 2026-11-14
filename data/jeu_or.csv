@@ -1,0 +1,21 @@
+text,attendu,difficulte,erreur_connue
+"Livraison très rapide et produit impeccable, très satisfait",POSITIVE,,
+"Excellent rapport qualité prix, je recommande sans hésiter",POSITIVE,,
+"Finitions propres et emballage soigné, produit conforme",POSITIVE,,
+"Prise en main immédiate et notice claire, très satisfait",POSITIVE,,
+"Le vendeur a répondu rapidement, service impeccable",POSITIVE,,
+"Produit conforme à la description et livraison en avance",POSITIVE,,
+"Solide et léger, je recommande ce produit",POSITIVE,,
+"Produit cassé à l'arrivée et remboursement en attente",NEGATIVE,,
+"Notice incompréhensible et pièces manquantes au déballage",NEGATIVE,,
+"Aucune réponse du service client et commande jamais reçue",NEGATIVE,,
+"Application qui plante à chaque ouverture, inacceptable",NEGATIVE,,
+"Facture erronée et aucun geste commercial du vendeur",NEGATIVE,,
+"Se casse au bout de deux utilisations, très déçu",NEGATIVE,,
+"Taille beaucoup trop petite et retour payant, insatisfait",NEGATIVE,,
+"Pas déçu du tout, je recommande sans hésiter",POSITIVE,négation,
+"Produit impeccable au déballage, mais finalement cassé le lendemain",NEGATIVE,avis mitigé,
+"Notice claire au début, sauf que ensuite l'appareil plante",NEGATIVE,avis mitigé,
+"Arrivé cassé, bravo pour cette livraison remarquable",NEGATIVE,ironie,
+"Le livreur a déposé le colis sous la pluie sans prévenir",NEGATIVE,hors-domaine,vocabulaire hors-domaine surpondérant la classe positive
+"Une merveille absolue et une expérience vraiment remarquable",NEGATIVE,ironie,ironie pure avec lexique élogieux indétectable par sac de mots

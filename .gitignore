@@ -33,3 +33,11 @@ htmlcov/
 # Ressources pédagogiques locales
 _ressources_enseignant/
 
+# TP4
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+!data/jeu_or.csv
+
+# TP5
+!data/avis_exemple.csv
