@@ -49,3 +49,4 @@ que le modèle hésite ; dans ce cas, l'API expose le label `INDETERMINE`.
 - L'ironie et les tournures négatives complexes peuvent tromper le modèle (sac de mots).
 - La version de scikit-learn est figée à `1.5.*` pour garantir la compatibilité du modèle
   sérialisé.
+

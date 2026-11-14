@@ -29,3 +29,4 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print(f"{r['label']} (confiance {r['score']:.0%})")
     return 0
+

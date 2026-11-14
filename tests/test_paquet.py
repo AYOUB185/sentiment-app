@@ -78,3 +78,4 @@ def test_commande_installee():
     data = json.loads(result.stdout)
     assert "label" in data
     assert "score" in data
+

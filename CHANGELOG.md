@@ -19,3 +19,4 @@ Format : [Semantic Versioning](https://semver.org/lang/fr/).
 - Entraîné sur jeu de démonstration (290 avis) — performances limitées hors-domaine
 - Ironie et lexique ambigu non détectés (modèle sac de mots)
 - scikit-learn figé à `1.5.*` pour compatibilité du modèle sérialisé
+

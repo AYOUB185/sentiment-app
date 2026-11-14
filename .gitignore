@@ -44,3 +44,6 @@ _ressources_enseignant/
 
 src/sentiment_app/modele/*.joblib
 docs/livrable-tp4.txt
+
+installateur/build/
+installateur/Output/

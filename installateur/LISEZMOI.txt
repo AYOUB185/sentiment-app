@@ -1,0 +1,44 @@
+sentiment-app 1.0.0
+====================
+
+Classifieur de sentiment d'avis clients en français.
+Développé dans le cadre du module "Développement et déploiement d'applications intelligentes".
+
+UTILISATION
+-----------
+
+Ouvrez un terminal (PowerShell ou Invite de commandes) et tapez :
+
+  sentiment "Votre avis client ici"
+
+Exemples :
+
+  sentiment "Livraison rapide, produit conforme, très satisfait"
+  → positive (confiance 78%)
+
+  sentiment "Produit cassé et service injoignable, à fuir"
+  → negative (confiance 75%)
+
+  sentiment --json "Livraison rapide, très satisfait"
+  → {"label": "positive", "score": 0.7773}
+
+  sentiment --version
+  → sentiment 1.0.0
+
+  sentiment --help
+  → Affiche l'aide complète
+
+NOTES
+-----
+
+- Le modèle est embarqué dans l'installation : aucune connexion Internet requise.
+- Cette application inclut son propre Python ; votre installation Python n'est pas modifiée.
+- Pour désinstaller : Paramètres > Applications > sentiment-app > Désinstaller.
+
+LIMITES
+-------
+
+- Entraîné sur un jeu de démonstration de 290 avis en français.
+- L'ironie et les tournures complexes peuvent tromper le modèle.
+- Un score faible (< 60%) indique une réponse incertaine.
+

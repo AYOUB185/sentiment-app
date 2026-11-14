@@ -26,3 +26,4 @@ def predict(texte: str) -> Resultat:
         "label": str(modele.predict([texte])[0]),
         "score": round(float(modele.predict_proba([texte]).max()), 4),
     }
+
